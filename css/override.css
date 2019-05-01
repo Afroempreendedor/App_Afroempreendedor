@@ -1,13 +1,56 @@
+.navbar-nav {
+  background: linear-gradient(135deg,#f1c84c 0,#f7b71d 16%,#f1c84c 52%,#f1c84c 52%,rgb(253, 189, 16) 100%,#7db9e8 100%);
+}
+
+.left,
+.team-item {
+  float: left !important;
+}
+
+.benefits > li {
+  font-size: 2vmin !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #333;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #f0932b;
+}
+
+.footer p {
+  color: #333;
+}
+
+h4,
+.dropcaps_left,
+.text_align_left p,
+.text_align_right p,
+.features_item {
+  float: left;
+}
+
+.text_align_left p,
+.text_align_right p {
+  width: calc(100% - 101px);
+}
+
+.text_align_right > h4 {
+  float: right;
+}
+
 @media screen and (max-width: 400px) {
     h1 {
-        font-size: 10vmin;
+        font-size: 30px;
     }
-    
+
     .navbar {
         background: #f6c331;
         z-index: 9991;
     }
-    
+
     .navbar-brand, .navbar-fixed-top.opaque .navbar-brand {
         font-size: 24px;
     }

@@ -63,7 +63,8 @@ p {
 	line-height: 28px;
 	font-weight: 400;
 	color: #7c8595;
-	margin-bottom:15px;
+	margin-bottom: 15px;
+	float: left;
 }
 
 a,
@@ -759,13 +760,14 @@ ul.footer_social li a i:hover {
 /* ========================================================== */
 
 .team-item{
+	float: left;
 	margin-top:40px;
 	padding: 50px 20px;
-    background-color: #fff;
-    border-bottom: 3px solid #e0e0e0;
-    box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
-    text-align: center;
-    transition: all 1s;
+	background-color: #fff;
+	border-bottom: 3px solid #e0e0e0;
+	box-shadow: rgba(33,33,33,.06) 0 4px 24px 5px;
+	text-align: center;
+	transition: all 1s;
 	border-radius: 8px 8px;
 	-webkit-transition: all 0.25s ease-in-out;
 	-moz-transition: all 0.25s ease-in-out;
@@ -2223,6 +2225,7 @@ a.btn-green:visited, a.btn-green:focus, a.btn-lyla:visited, a.btn-lyla:focus{
   color: #959595;
   background-color: transparent;
   border: none;
+  float: left;
 }
 
 .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
@@ -2232,7 +2235,7 @@ a.btn-green:visited, a.btn-green:focus, a.btn-lyla:visited, a.btn-lyla:focus{
 /* g) Features List */
 
 ul.benefits li {
-    font-size: 17px;
+    /* font-size: 17px; */
     line-height: 26px;
     margin-bottom: 10px;
 }
@@ -2483,7 +2486,8 @@ ul.partners-mentions li img:hover {
 	}
 
 	.home-section h1 {
-	    font-size: 38px;
+	    font-size: 30px;
+	    width: 100%;
 	    line-height: 44px;
 	}
 
