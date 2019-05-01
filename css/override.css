@@ -147,4 +147,8 @@ h4,
     .navbar-brand, .navbar-fixed-top.opaque .navbar-brand {
         font-size: 24px;
     }
+
+    .fun-facts-box {
+      width: 100%;
+    }
 }
