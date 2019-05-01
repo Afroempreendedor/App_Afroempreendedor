@@ -38,14 +38,16 @@
 
 h4,
 .dropcaps_left,
+.text_align_left,
+.text_align_right,
 .text_align_left p,
 .text_align_right p,
 .features_item {
   float: left;
 }
 
-.text_align_left p,
-.text_align_right p {
+.text_align_left,
+.text_align_right {
   width: calc(100% - 101px);
 }
 
