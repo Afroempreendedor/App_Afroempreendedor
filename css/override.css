@@ -1,10 +1,10 @@
-.navbar-nav {
-  background: linear-gradient(135deg,#f1c84c 0,#f7b71d 16%,#f1c84c 52%,#f1c84c 52%,rgb(253, 189, 16) 100%,#7db9e8 100%);
-}
-
 .left,
 .team-item {
   float: left !important;
+}
+
+.hide {
+  display: none;
 }
 
 .benefits > li {
@@ -39,6 +39,41 @@ h4,
 
 .text_align_right > h4 {
   float: right;
+}
+
+.panel-default,
+.panel-collapse {
+  width: 100%;
+}
+
+.team-info::after {
+  width: 0px;
+  height: 0px;
+}
+
+.team-info p {
+  float: left;
+  width: 100%;
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.feature-box-text {
+  float: right;
+  width: calc(95% - 85px);
+  margin-left: 0px;
+}
+
+.btn-download-app > span {
+  float: left;
+  margin-top: 6px;
+  margin-left: -3px;
+}
+
+@media screen and (max-width: 990px) {
+  .navbar-nav {
+    background: linear-gradient(135deg,#f1c84c 0,#f7b71d 16%,#f1c84c 52%,#f1c84c 52%,rgb(253, 189, 16) 100%,#7db9e8 100%);
+  }
 }
 
 @media screen and (max-width: 400px) {
