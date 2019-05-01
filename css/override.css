@@ -72,6 +72,12 @@ h4,
   margin-left: -3px;
 }
 
+.section-subtitle {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (max-width: 990px) {
   .navbar-nav {
     background: linear-gradient(135deg,#f1c84c 0,#f7b71d 16%,#f1c84c 52%,#f1c84c 52%,rgb(253, 189, 16) 100%,#7db9e8 100%);
