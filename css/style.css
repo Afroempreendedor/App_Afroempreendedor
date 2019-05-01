@@ -92,7 +92,7 @@ h1 {
 }
 
 h2 {
-	font-size: 38px;
+	font-size: 36px;
 }
 
 h3 {
@@ -1856,21 +1856,21 @@ p.contact_success_box{
 
 #newsletter-form #submit-button-newsletter {
     width: 165px;
-	height:65px;
+    height:65px;
     background: #fff;
-	border: none;
-    color:#29220A;  
+    border: none;
+    color:#29220A;
     display: inline;
-	margin:0 0 0 -5px;
+    margin:0 0 0 -5px;
     -moz-border-radius: 0 5px 5px 0;
-    -webkit-border-radius: 0 5px 5px 0;
-    border-radius: 0 5px 5px 0;
-	font-size:16px;
-	font-weight:700;
-	vertical-align: top;
-	transition: background-color .25s ease-in-out;
-   -moz-transition: background-color .25s ease-in-out;
-   -webkit-transition: background-color .25s ease-in-out;
+    /* -webkit-border-radius: 0 5px 5px 0; */
+    /* border-radius: 0 5px 5px 0; */
+    font-size:16px;
+    font-weight:700;
+    vertical-align: top;
+    transition: background-color .25s ease-in-out;
+    -moz-transition: background-color .25s ease-in-out;
+    -webkit-transition: background-color .25s ease-in-out;
 }
 
 #newsletter-form #submit-button-newsletter:hover {
