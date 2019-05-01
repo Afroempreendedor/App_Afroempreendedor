@@ -13,6 +13,12 @@
   width: 100%;
 }
 
+.home-section h1 {
+  float: left;
+  width: 100%;
+  font-size: 34px;
+}
+
 .benefits > li {
   font-size: 14px !important;
 }
@@ -94,6 +100,10 @@ h4,
   color: #333 !important;
 }
 
+.fun-facts-text {
+  width: calc(100% - 75px);
+}
+
 @media screen and (max-width: 990px) {
   .navbar-nav {
     background: linear-gradient(135deg,#f1c84c 0,#f7b71d 16%,#f1c84c 52%,#f1c84c 52%,rgb(253, 189, 16) 100%,#7db9e8 100%);
@@ -121,8 +131,12 @@ h4,
 }
 
 @media screen and (max-width: 400px) {
-    h1 {
-        font-size: 30px;
+    #logo {
+      font-size: 6vmin !important;
+    }
+
+    .home-section h1 {
+        font-size: 8vmin;
     }
 
     .navbar {
