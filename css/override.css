@@ -1,4 +1,6 @@
 .left,
+.fun-facts-text,
+.fun-facts-icon,
 .team-item {
   float: left !important;
 }

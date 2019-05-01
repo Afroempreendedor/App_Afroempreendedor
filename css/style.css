@@ -2267,10 +2267,11 @@ ul.benefits li i {
 	color:#5F4C0B;
 	display: inline-block;
 	text-align:center;
-	margin-right: 15px;
+	margin-right: 20px;
 }
 
 .fun-facts-text {
+	float: left;
 	display: inline-block;
 }
 
