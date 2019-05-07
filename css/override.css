@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .left,
 .fun-facts-text,
 .fun-facts-icon,
